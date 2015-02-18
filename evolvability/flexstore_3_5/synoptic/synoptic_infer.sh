@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./synoptic-jar.sh --onlyMineInvariants=true --outputInvariantsToFile=true flexstore5_log_1382708392738.syn flexstore3_log_1380141808152.syn flexstore5_log_1382714670306_fixed.syn flexstore5_log_1382697370290_fixed.syn flexstore5_log_1382701756922.syn flexstore5_log_1382696722317.syn flexstore5_log_1382695459006.syn flexstore3_log_1384863620383.syn flexstore5_log_1382697713119_fixed.syn flexstore3_log_1380120155880.syn flexstore3_log_1381126240220.syn flexstore5_log_1382696486294_fixed.syn

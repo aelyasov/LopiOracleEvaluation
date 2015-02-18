@@ -1,0 +1,54 @@
+*** Number of supplied logs: 12
+*** Total length of the supplied logs: 1125
+*** The average length of the supplied logs: 93.75
+*** Number of unique events in the logs: 191
+*** Number of inferred patterns: 732
+
+real	2m38.872s
+user	2m37.178s
+sys	0m0.962s
+
+
+	User time (seconds): 165.99
+	System time (seconds): 1.20
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:48.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 90
+	Minor (reclaiming a frame) page faults: 11950
+	Voluntary context switches: 129
+	Involuntary context switches: 13069
+	Swaps: 0
+	File system inputs: 23656
+	File system outputs: 1008
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+----------------------------
+Individual log statistics:
+
+log, length, events
+flexstore5_log_1382695459006.log,       5,   4
+flexstore5_log_1382701756922.log,       5,   4
+flexstore3_log_1384863620383.log,       40,  21
+flexstore3_log_1381126240220.log,       43,  15
+flexstore5_log_1382708392738.log,       48,  19
+flexstore5_log_1382696722317.log,       79,  27
+* flexstore5_log_1382696486294_fixed.log, 106, 68
+flexstore5_log_1382714670306_fixed.log, 109, 52 
+flexstore3_log_1380141808152.log,       149, 78
+flexstore5_log_1382697370290_fixed.log, 153, 51
+flexstore3_log_1380120155880.log,       158, 58
+flexstore5_log_1382697713119_fixed.log, 230, 57
+
+
+
+

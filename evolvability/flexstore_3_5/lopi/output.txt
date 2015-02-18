@@ -1,0 +1,13 @@
+time lopi --new-infer=3 --in-logs="flexstore5_log_1382697370290_fixed.log flexstore5_log_1382696722317.log flexstore5_log_1382697713119_fixed.log flexstore3_log_1380141808152.log flexstore5_log_1382708392738.log flexstore3_log_1380120155880.log flexstore5_log_1382714670306_fixed.log flexstore5_log_1382701756922.log flexstore3_log_1381126240220.log flexstore3_log_1384863620383.log flexstore5_log_1382696486294_fixed.log flexstore5_log_1382695459006.log" --rew-rules="flexstore_3_5_lopi.inv" --filter-rules=filterZero
+*** Number of supplied logs: 12
+*** Total length of the supplied logs: 1125
+*** The average length of the supplied logs: 93.75
+*** Number of inferred patterns: nonSkpEs: 84
+nonSkpRs: 25493370
+
+398
+*** Number of unique events in the logs: 191
+
+real	225m46.421s
+user	224m47.820s
+sys	0m34.422s 

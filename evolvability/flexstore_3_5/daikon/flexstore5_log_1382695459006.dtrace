@@ -1,0 +1,1055 @@
+decl-version 2.0
+
+
+ppt App:::OBJECT
+ppt-type object
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+
+ppt AppInit:::POINT
+ppt-type point
+parent parent App:::OBJECT 1
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 1
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 1
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 1
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 1
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 1
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 1
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 1
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 1
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 1
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 1
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 1
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 1
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 1
+
+ppt click_IDY_compare_1(..):::ENTER
+ppt-type enter
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+
+ppt click_IDY_compare_1(..):::EXIT1
+ppt-type exit
+parent parent App:::OBJECT 10
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 10
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 10
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 10
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 10
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 10
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 10
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 10
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 10
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 10
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 10
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 10
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 10
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 10
+
+ppt click_IDY_cancas_1(..):::ENTER
+ppt-type enter
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+
+ppt click_IDY_cancas_1(..):::EXIT1
+ppt-type exit
+parent parent App:::OBJECT 11
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 11
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 11
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 11
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 11
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 11
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 11
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 11
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 11
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 11
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 11
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 11
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 11
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 11
+
+ppt change_TabNavigator0(..):::ENTER
+ppt-type enter
+   variable arg0
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      flags is_param
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+
+ppt change_TabNavigator0(..):::EXIT1
+ppt-type exit
+parent parent App:::OBJECT 12
+   variable arg0
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      flags is_param
+   variable smodel
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 12
+   variable smodel.cartCurrency
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 12
+   variable smodel.cartTotal
+      var-kind variable
+      dec-type String
+      rep-type java.lang.String
+      comparability 4
+      parent App:::OBJECT 12
+   variable smodel.catalogContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 12
+   variable smodel.catalogContents.__array
+      var-kind array
+      enclosing-var smodel.catalogContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 12
+   variable smodel.compareCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 12
+   variable smodel.compareCartContents.__array
+      var-kind array
+      enclosing-var smodel.compareCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 12
+   variable smodel.numInCompareCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 12
+   variable smodel.numInShopCart
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 12
+   variable smodel.numOfSelectedItems
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 12
+   variable smodel.selectedProduct
+      var-kind variable
+      dec-type int
+      rep-type int
+      comparability 2
+      parent App:::OBJECT 12
+   variable smodel.shoppingCartContents
+      var-kind variable
+      dec-type XID
+      rep-type hashcode
+      comparability 5
+      parent App:::OBJECT 12
+   variable smodel.shoppingCartContents.__array
+      var-kind array
+      enclosing-var smodel.shoppingCartContents
+      array 1
+      dec-type int[]
+      rep-type int[]
+      comparability 12[52]
+      parent App:::OBJECT 12
+
+AppInit:::POINT
+this_invocation_nonce
+0
+smodel
+10
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+11
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+13
+1
+smodel.compareCartContents.__array
+[]
+1
+smodel.numInCompareCart
+0
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+12
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+click_IDY_compare_1(..):::ENTER
+this_invocation_nonce
+1
+smodel
+10
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+11
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+13
+1
+smodel.compareCartContents.__array
+[]
+1
+smodel.numInCompareCart
+0
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+12
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+click_IDY_compare_1(..):::EXIT1
+this_invocation_nonce
+1
+smodel
+3
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+4
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+6
+1
+smodel.compareCartContents.__array
+[1]
+1
+smodel.numInCompareCart
+1
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+5
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+click_IDY_cancas_1(..):::ENTER
+this_invocation_nonce
+2
+smodel
+10
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+11
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+13
+1
+smodel.compareCartContents.__array
+[1]
+1
+smodel.numInCompareCart
+1
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+12
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+click_IDY_cancas_1(..):::EXIT1
+this_invocation_nonce
+2
+smodel
+3
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+4
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+6
+1
+smodel.compareCartContents.__array
+[1]
+1
+smodel.numInCompareCart
+1
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+5
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+click_IDY_cancas_1(..):::ENTER
+this_invocation_nonce
+3
+smodel
+10
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+11
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+13
+1
+smodel.compareCartContents.__array
+[1]
+1
+smodel.numInCompareCart
+1
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+12
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+click_IDY_cancas_1(..):::EXIT1
+this_invocation_nonce
+3
+smodel
+3
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+4
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+6
+1
+smodel.compareCartContents.__array
+[1]
+1
+smodel.numInCompareCart
+1
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+5
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+change_TabNavigator0(..):::ENTER
+this_invocation_nonce
+4
+arg0
+1
+1
+smodel
+10
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+11
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+13
+1
+smodel.compareCartContents.__array
+[1]
+1
+smodel.numInCompareCart
+1
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+-1
+1
+smodel.shoppingCartContents
+12
+1
+smodel.shoppingCartContents.__array
+[]
+1
+
+change_TabNavigator0(..):::EXIT1
+this_invocation_nonce
+4
+arg0
+1
+1
+smodel
+3
+1
+smodel.cartCurrency
+"$"
+1
+smodel.cartTotal
+"$0.00"
+1
+smodel.catalogContents
+4
+1
+smodel.catalogContents.__array
+[16 4 18 6 8 11 13 1 3 17 5 7 9 10 12 14 2 15]
+1
+smodel.compareCartContents
+6
+1
+smodel.compareCartContents.__array
+[1]
+1
+smodel.numInCompareCart
+1
+1
+smodel.numInShopCart
+0
+1
+smodel.numOfSelectedItems
+18
+1
+smodel.selectedProduct
+1
+1
+smodel.shoppingCartContents
+5
+1
+smodel.shoppingCartContents.__array
+[]
+1
